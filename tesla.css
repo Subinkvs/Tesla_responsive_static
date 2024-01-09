@@ -1,0 +1,238 @@
+body{
+   
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 300;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: transparent!important;
+}
+.navbar-nav .nav-item{
+    text-align: right;
+    flex: 1 1 auto;
+}
+.navbar-nav .nav-item a{
+    color: black;
+}
+.list-1{
+    font-weight: 450;
+}
+.list-2{
+    font-weight: 450;
+}
+.banner-1 {
+    max-width: 100%;
+    height: 800px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/Model3.jfif');
+    background-repeat: no-repeat;
+    
+}
+.banner-2{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/ModelY.jfif');
+    background-repeat: no-repeat;
+}
+.banner-3{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/Model-S.jfif');
+    background-repeat: no-repeat;
+}
+.banner-4{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/ModelX.jfif');
+    background-repeat: no-repeat;
+}
+.banner-5{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/SolarPanels-D.jfif');
+    background-repeat: no-repeat;
+}
+.banner-6{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/TeslaHome.jpg');
+    background-repeat: no-repeat;
+}
+.banner-7{
+    width:100%;
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./pictures/electricport.jfif');
+    background-repeat: no-repeat;
+}
+.banner-1 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-1 a{
+    font-weight: 300;
+    color: black !important;
+    text-decoration: underline;
+}
+.banner-2 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-2 a{
+    font-weight: 300;
+    color: black !important;
+    text-decoration: underline;
+}
+.banner-3 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-3 a{
+    font-weight: 300;
+    color: black !important;
+    text-decoration: underline;
+}
+.banner-4 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-4 a{
+    font-weight: 300;
+    color: black !important;
+    text-decoration: underline;
+}
+.banner-5 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-5 a{
+    font-weight: 400;
+    color: black !important;
+    text-decoration: none;
+}
+.banner-6 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-6 a{
+    font-weight: 400;
+    color: black !important;
+    text-decoration: none;
+}
+.banner-7 h1{
+    padding-top: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-7 a{
+    font-weight: 300;
+    color: black !important;
+    text-decoration: underline;
+}
+.first-order{
+    margin-top: 375px;
+    text-decoration: none;
+}
+.order{
+    padding:8px 90px;
+}
+.demo{
+    padding:8px 90px;
+}
+
+@media screen and (min-width:375px) and (max-width:450px) {
+
+.banner-1 {
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/Model3.jfif');
+   }
+}
+
+@media screen and (min-width:375px)  {
+    .order{
+        margin-right: 40px;
+    }
+    .demo{
+        margin-left: 25px;
+      
+    }
+}
+.banner-2 .first-order{
+    margin-top: 450px;
+}
+.banner-5 .first-order{
+    margin-top: 475px;
+}
+.banner-6 .first-order{
+    margin-top: 475px;
+}
+.banner-7 .first-order{
+    margin-top: 475px;
+}
+.navbar {
+    text-decoration: none !important;
+  }
+  .container .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .col-sm-2 {
+    text-align: center;
+    margin-bottom: 30px; /* default gap */
+  }
+  
+  /* @media screen and (max-width: 767px) {
+    .col-sm-2 {
+      margin-bottom: 20px; /* reduce gap on small screens */
+    }
+  } */
+   
+  /* @media screen and (max-width: 575px) {
+    .col-sm-2 {
+      margin-bottom: 10px; /* reduce gap on extra small screens */
+    }
+  }  */ */
+  .tesla-footer{
+    width:1200px;
+    height:70px;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color:#5C5E62;
+}
+
+
+
+  
+  
+
+
+  
+
+
+
